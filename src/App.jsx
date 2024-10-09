@@ -1,8 +1,5 @@
-// src/App.jsx
 import { useState, useEffect } from "react";
 import "./App.css";
-// import TodoForm from './TodoForm';
-// import TodoList from './TodoList';
 import TodoForm from "./component/TodoForm";
 import TodoList from "./component/TodoList";
 
