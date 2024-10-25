@@ -1,11 +1,13 @@
 .app {
+  margin-top: 30px;
   text-align: center;
   font-family: Arial, sans-serif;
-  max-width: 400px;
+  height: 500px;
+  max-width: 800px;
   margin: 0 auto;
   padding: 20px;
-  border: 2px solid #06070c;
-  border-radius: 5px;
+  border: 5px solid #000000;
+  border-radius: 20px;
   box-shadow: 0 2px 4px rgba(2, 2, 0, 0.1);
 }
 
@@ -17,7 +19,7 @@ form {
 input {
   flex: 1;
   padding: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid #0b0707;
   border-radius: 3px;
   margin-right: 10px;
 }
@@ -25,8 +27,8 @@ input {
 button {
   padding: 10px 20px;
   border: none;
-  background-color: #28a745;
-  color: white;
+  background-color: #1f0f73;
+  color: rgb(7, 3, 6);
   border-radius: 3px;
   cursor: pointer;
 }
@@ -48,13 +50,13 @@ li {
 }
 
 li button {
-  background-color: #dc3545;
+  background-color: #c26972;
   padding: 5px 10px;
 }
 
 li button:hover {
-  background-color: #c82333;
+  background-color: #bd1324;
 }
 *{
-  background-color: rgb(39, 49, 83)  ;
+  background-color: rgb(112, 120, 119)  ;
 }
